@@ -556,28 +556,6 @@ body {
     filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.3));
 }
 
-/* 고정 크레딧 (좌측 하단, 스크롤 안 됨) */
-.fixed-credit {
-    position: absolute;
-    bottom: 50px; /* 호스트 로고와 같은 높이 */
-    left: 120px;
-    z-index: 200;
-    opacity: 0;
-    transition: opacity 0.8s ease-out;
-}
-
-#profiles.active .fixed-credit {
-    opacity: 1;
-}
-
-.fixed-credit .credit-text {
-    font-size: 36px;
-    font-weight: 500;
-    color: #888888;
-    line-height: 1.5;
-    text-align: left;
-}
-
 /* 엔딩 애니메이션 */
 @keyframes endingFadeIn {
     from {
